@@ -5,7 +5,8 @@ Jednoduchá Python aplikace pro správu úkolů s CRUD operacemi a sledovaním s
 ---
 
 ### 🗂 Struktura projektu
-<img width="372" height="342" alt="image" src="https://github.com/user-attachments/assets/973da397-cdbf-4699-802e-872e3b64181e" />
+<img width="441" height="328" alt="image" src="https://github.com/user-attachments/assets/3e8297dc-bea8-4391-a431-991dec30928d" />
+
 
 
 - Ve složce src se nachází main script pro aplikaci Task Manager a skript funkcí vytvořených pro testování
