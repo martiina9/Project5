@@ -45,10 +45,10 @@ def create_test_table():
 
 @pytest.fixture(scope="function")
 def setup_test_db():
-    # Setup: vytvořit testovací DB a tabulku
     create_test_database()
     create_test_table()
-    yield  # tady běží test
-    # Teardown: po testu tabulku vyprázdnit
+    yield  
+    truncate_test_table()
+
 
 
