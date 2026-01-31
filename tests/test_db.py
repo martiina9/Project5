@@ -40,7 +40,7 @@ def create_test_table():
     conn.commit()
            
     cursor.close()
-
+    conn.close()
 
 
 @pytest.fixture(scope="function")
@@ -50,4 +50,5 @@ def setup_test_db():
     create_test_table()
     yield  # tady běží test
     # Teardown: po testu tabulku vyprázdnit
+
 
