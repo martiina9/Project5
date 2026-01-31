@@ -49,6 +49,3 @@ def setup_test_db():
     create_test_table()
     yield  
     truncate_test_table()
-
-
-
